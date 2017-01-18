@@ -1,0 +1,62 @@
+/*!Serotonin v3 ~ (C) Saumitro Dasgupta, 2015. Modified by Aditya Timmaraju */
+html{  
+   -webkit-box-sizing:border-box; 
+   -moz-box-sizing:border-box;
+    box-sizing:border-box
+}*,
+*:before, *:after{
+    -webkit-box-sizing:inherit;
+    -moz-box-sizing:inherit;
+    box-sizing:inherit
+}
+body{
+    font-family: Roboto, 'Source Sans Pro', sans-serif;
+    font-size:15px;
+    line-height:1.2em;
+    color:#2d2d2d
+}
+section{
+    max-width:650px;
+    margin-top:30px;
+    margin-left:auto;
+    margin-right:auto;
+    color:#2d2d2d
+}
+section::after{
+    content:"";
+    clear:both;
+    display:table
+}
+section header{
+    padding-bottom:6px
+}
+section .name{
+    margin-bottom:1px;
+    font-size:32px;
+    font-weight:400;
+    color:#2d2d2d
+}
+section header:not(.name){
+    font-size:11px;
+    font-weight:600;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    color:#b20000
+}
+a{
+    text-decoration:none;
+    color:#4682B4
+}
+a:hover{
+    color: #20B2AA
+}
+.list-elem:not(:last-child){
+    padding-bottom:18px
+}
+.content{
+    font-size:14px;
+    color:#7A8AA1
+}
+.brk{
+    color:#999
+}
